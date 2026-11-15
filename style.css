@@ -1,0 +1,45 @@
+/* Pengaturan Global & Reset Box Model */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tag Selector: Styling untuk seluruh body */
+body {
+  background-color: #f4f4f9;
+  color: #333333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ID Selector: Styling unik untuk header utama */
+#main-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#main-header h1 {
+  font-size: 28px;
+  color: #111111;
+}
+
+/* Class Selector: Styling untuk kontainer kartu/card */
+.card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Kombinasi Selektor */
+.card p {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 10px;
+}
